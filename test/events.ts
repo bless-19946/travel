@@ -3,6 +3,7 @@ import chaiAsPromised from "chai-as-promised";
 chai.use(chaiAsPromised);
 chai.should();
 
+
 import "mocha";
 
 import { event } from '../src/index';
