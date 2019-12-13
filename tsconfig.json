@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true,
+    "declarationDir": "dts",
+    "allowJs": false,
+    "checkJs": false,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "typeRoots": [
+      "typings"
+    ],
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "typings",
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*/*.d.ts"
+  ]
+}
