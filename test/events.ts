@@ -4,6 +4,7 @@ chai.use(chaiAsPromised);
 chai.should();
 
 import "mocha";
+
 import { event } from '../src/index';
 
 const eventName = Symbol();
