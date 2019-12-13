@@ -9,6 +9,7 @@ import { event } from '../src/index';
 
 const eventName = Symbol();
 
+
 describe("demo", () => {
     it('test on function', function () {
         const promise = new Promise(resolve => event.on(eventName, resolve));
